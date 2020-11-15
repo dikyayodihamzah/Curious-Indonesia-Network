@@ -1,0 +1,32 @@
+{
+  "testi": [
+    {
+      "ImageUrl": "images/testi-1.png",
+      "quote": " Coinetwork membimbing para delegasi untuk meraih prestasi dan kemampuan lebih tinggi dalam sains. Saya mendapatkan feedback dari eksperimen secara kritis dan dapat mencapai  standar yang lebih tinggi. Sesi mentoring menjadi hal yang  tidak saya dapatkan dari kompetisi lainnya. ",
+      "name": "Amrita",
+      "alt": "Foto Amrita",
+      "title": " Gold Prize GYSTB Hongkong"
+    },
+    {
+      "ImageUrl": "images/testi-2.png",
+      "quote": "  Berkompetisi bersama Coinetwork itu seru banget, keren, dan sesinya selalu bikin rileks (tidak ada tekanan). Coinetwork juga menghandel seluruh keperluan perseta pada kompetisi internasional. Sesi Pendampingan Lomba merupakan hal yang tidak terlupakan untuk saya, karena Para Kakak Panitia selalu memberikan semangat dan ramah banget",
+      "name": "Setyo Bayu",
+      "alt": "Foto Setoy Bayu",
+      "title": "People's Choice Award Africa Science Buskers 2020"
+    },
+    {
+      "ImageUrl": "images/testi-3.png",
+      "quote": "  Coinetwork selalu memfasilitasi segala hal yang mendukung keperluan peserta dalam dua kompetisi internasional. Fasilitas coinetwork dalam sesi mentoring dan pendampinganselama kompetisi internasional memang luar biasa. Sukses terus untuk Coinetwork!",
+      "name": "Ibu Ida Nurul Kifayati, M.Pd",
+      "alt": "Foto Ibu Ida",
+      "title": "Guru Pendamping Finalis GYSTB dan ASBF 2020"
+    },
+    {
+      "ImageUrl": "images/testi-4.png",
+      "quote": " Terima kasih kepada Coinetwork yang memfasilitasi dan mendukung dalam kompetisi ini. Semoga semakin banyak Generasi Muda yang melek dan mencintai research. Sarana berproses dengan memberikan feedback kepada para peserta harus terus ada agar mencintai proses penelitian",
+      "name": "Bapak Yulianto",
+      "alt": "Foto Bapak Yulianto",
+      "title": " Guru Pendamping Finalis ASBF dan Expocytar 2020"
+    }
+  ]
+}

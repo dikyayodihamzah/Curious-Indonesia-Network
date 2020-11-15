@@ -1,0 +1,25 @@
+@import "bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import "./navbar.scss";
+@import "./home.scss";
+@import "./joinus.scss";
+@import "./aboutus.scss";
+@import "./perjalanan.scss";
+@import "./testimonials.scss";
+@import "./footer.scss";
+@import "./internship.scss";
+@import "./eduentertaiment.scss";
+@import "./prestasi.scss";
+@import "./kompetisi.scss";
+@import "./join.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.margin_top {
+  height: 80px;
+}

@@ -1,0 +1,149 @@
+.prestasi-carousel {
+  height: 930px;
+}
+
+.prestasi-text {
+  background-color: #ffde0a;
+  text-align: center;
+  padding: 20px 0vw 20px 0vw;
+}
+
+#title-prestasi {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#sub-title-prestasi {
+  text-align: center;
+
+  margin-top: 25px;
+}
+
+.content-media-prestasi {
+  padding: 20px;
+
+  height: 930px;
+}
+
+#prestasi-img-1,
+#prestasi-img-2 {
+  width: 80%;
+  border-radius: 10%;
+}
+
+//media
+
+@include media-breakpoint-only(xs) {
+  #title-prestasi {
+    font-size: 25px;
+  }
+
+  #sub-title-prestasi {
+    font-size: 18px;
+  }
+
+  #prestasi-bottom {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .prestasi-carousel {
+    height: 1150px;
+  }
+  .content-media-prestasi {
+    padding: 20px;
+
+    height: 1150px;
+  }
+
+  #prestasi-img-1,
+  #prestasi-img-2 {
+    margin-top: 30px;
+    width: 70%;
+    border-radius: 10%;
+  }
+}
+@include media-breakpoint-only(sm) {
+  #title-prestasi {
+    font-size: 25px;
+  }
+
+  #sub-title-prestasi {
+    font-size: 18px;
+  }
+
+  #prestasi-bottom {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .prestasi-carousel {
+    height: 1150px;
+  }
+  .content-media-prestasi {
+    padding: 20px;
+
+    height: 1150px;
+  }
+
+  #prestasi-img-1,
+  #prestasi-img-2 {
+    margin-top: 30px;
+    width: 70%;
+    border-radius: 10%;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  #title-prestasi {
+    font-size: 25px;
+  }
+
+  #sub-title-prestasi {
+    font-size: 18px;
+  }
+
+  #prestasi-bottom {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .prestasi-carousel {
+    height: 1200px;
+  }
+  .content-media-prestasi {
+    padding: 20px;
+
+    height: 1200px;
+  }
+
+  #prestasi-img-1,
+  #prestasi-img-2 {
+    margin-top: 30px;
+    width: 60%;
+    border-radius: 10%;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  #title-prestasi {
+    font-size: 25px;
+  }
+
+  #sub-title-prestasi {
+    font-size: 18px;
+  }
+
+  #prestasi-bottom {
+    font-size: 18px;
+  }
+
+  .prestasi-carousel {
+    height: 930px;
+  }
+  .content-media-prestasi {
+    padding: 20px;
+
+    height: 930px;
+  }
+}

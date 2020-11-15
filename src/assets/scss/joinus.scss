@@ -1,0 +1,235 @@
+//awal joinus
+.joinus {
+  background-color: black;
+}
+
+.joinus_section {
+  background-color: black;
+  display: flex;
+
+  height: 75vh;
+}
+
+.joinus_outline {
+  position: absolute;
+  border: 3px solid whitesmoke;
+  height: 40vh;
+  width: 30vh;
+  z-index: 1;
+  border-radius: 50px;
+  transform: translate(20px, -20px);
+}
+
+.joinus_frame {
+  position: absolute;
+  background-color: #ffc107;
+  height: 40vh;
+  width: 30vh;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.joinus_icon {
+  width: 60%;
+  height: 60%;
+  margin-top: 40px;
+}
+
+.joinus_tittle {
+  margin-top: 20px;
+}
+
+.joinus_button {
+  border: 3px solid black;
+  padding: 0;
+  height: 4vh;
+  width: 15vh;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+@include media-breakpoint-only(xs) {
+  .joinus_section {
+    height: 20vh;
+  }
+
+  .joinus_outline {
+    height: 10vh;
+    width: 40vh;
+    border-radius: 50px;
+    transform: translate(20px, -20px);
+  }
+
+  .joinus_frame {
+    height: 10vh;
+    width: 40vh;
+    border-radius: 50px;
+  }
+
+  .joinus_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+  }
+  .joinus_icon {
+    width: 10%;
+    height: 10%;
+    margin-top: 0px;
+    flex-basis: 20%;
+    margin: 0 10px 0 40px;
+  }
+
+  .joinus_tittle {
+    font-size: 18px;
+    margin-top: 10px;
+    flex-basis: 40%;
+    margin: 0 20px 0 20px;
+  }
+
+  .joinus_button {
+    border: 3px solid black;
+    padding: 0;
+    height: 5vh;
+    width: 10vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    flex-basis: 20%;
+    margin: 0 20px 0 20px;
+  }
+}
+@include media-breakpoint-only(sm) {
+  .joinus_section {
+    height: 25vh;
+  }
+
+  .joinus_outline {
+    height: 15vh;
+    width: 55vh;
+    border-radius: 50px;
+    transform: translate(20px, -20px);
+  }
+
+  .joinus_frame {
+    height: 15vh;
+    width: 55vh;
+    border-radius: 50px;
+  }
+
+  .joinus_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .joinus_icon {
+    width: 10%;
+    height: 10%;
+    margin-top: 0px;
+    flex-basis: 20%;
+    margin: 0 10px 0 40px;
+  }
+
+  .joinus_tittle {
+    font-size: 30px;
+    margin-top: 28px;
+    flex-basis: 40%;
+    margin: 0 20px 0 20px;
+  }
+
+  .joinus_button {
+    border: 3px solid black;
+    padding: 0;
+    height: 4vh;
+    width: 12vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    flex-basis: 20%;
+    margin: 0 20px 0 20px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .joinus_section {
+    height: 30vh;
+    width: 75vh;
+  }
+
+  .joinus_outline {
+    height: 20vh;
+    width: 75vh;
+    border-radius: 50px;
+    transform: translate(20px, -20px);
+  }
+
+  .joinus_frame {
+    height: 20vh;
+    width: 75vh;
+    border-radius: 50px;
+  }
+
+  .joinus_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .joinus_icon {
+    width: 10%;
+    height: 10%;
+    margin-top: 0px;
+    flex-basis: 20%;
+  }
+
+  .joinus_tittle {
+    font-size: 40px;
+    flex-basis: 40%;
+    margin: 0 20px 0 20px;
+  }
+
+  .joinus_button {
+    border: 3px solid black;
+    padding: 0;
+    height: 4vh;
+    width: 12vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    flex-basis: 20%;
+    margin: 0 20px 0 20px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  .joinus_section {
+    height: 75vh;
+  }
+
+  .joinus_outline {
+    height: 40vh;
+    width: 30vh;
+    border-radius: 50px;
+    transform: translate(20px, -20px);
+  }
+
+  .joinus_frame {
+    height: 40vh;
+    width: 30vh;
+    border-radius: 50px;
+  }
+  .joinus_icon {
+    width: 60%;
+    height: 60%;
+    margin-top: 40px;
+  }
+
+  .joinus_tittle {
+    margin-top: 20px;
+  }
+
+  .joinus_button {
+    border: 3px solid black;
+    padding: 0;
+    height: 4vh;
+    width: 15vh;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+}
+//akhir joinus

@@ -1,0 +1,63 @@
+//awal tentang kami
+.TentangKami_container {
+  background-color: black;
+}
+.TentangKami_content {
+  height: 780px;
+  display: flex;
+  background-color: black;
+  padding: 30px;
+}
+
+.TentangKami_image {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+.TentangKami_text {
+  margin: 20px 0 20px 0;
+}
+
+@include media-breakpoint-only(xs) {
+  .TentangKami_content {
+    height: 850px;
+  }
+
+  .TentangKami_image {
+    #image_1 {
+      height: 60%;
+      width: 60%;
+      margin-top: 60px;
+    }
+  }
+  .TentangKami_text {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+}
+@include media-breakpoint-only(sm) {
+  .TentangKami_image {
+    #image_1 {
+      height: 50%;
+      width: 50%;
+    }
+  }
+  .TentangKami_text {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .TentangKami_text {
+    font-size: 18px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  .TentangKami_image {
+    display: inline;
+  }
+  .TentangKami_text {
+    font-size: 20px;
+  }
+}
+//akhir tentang kami

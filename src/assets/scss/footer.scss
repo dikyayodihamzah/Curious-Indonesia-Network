@@ -1,0 +1,81 @@
+//awal footer
+.footer {
+  background-color: black;
+  height: 400px;
+}
+.footer_content {
+  height: 400px;
+}
+.footer_list {
+  color: #f5f5f5;
+}
+.footer_list:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+@include media-breakpoint-only(lg) {
+  .footer_title {
+    font-size: 20px;
+  }
+
+  .footer_list {
+    font-size: 18px;
+  }
+  #footer_list {
+    font-size: 18px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .footer {
+    background-color: black;
+    height: 600px;
+  }
+  .footer_title {
+    font-size: 20px;
+  }
+
+  .footer_list {
+    font-size: 18px;
+  }
+  #footer_list {
+    font-size: 18px;
+  }
+}
+
+@include media-breakpoint-only(sm) {
+  .footer {
+    background-color: black;
+    height: 600px;
+    text-align: center;
+  }
+  .footer_title {
+    font-size: 18px;
+  }
+
+  .footer_list {
+    font-size: 16px;
+  }
+  #footer_list {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-only(xs) {
+  .footer {
+    background-color: black;
+    height: 600px;
+  }
+  .footer_title {
+    font-size: 18px;
+  }
+
+  .footer_list {
+    font-size: 16px;
+  }
+  #footer_list {
+    font-size: 16px;
+  }
+}
+//akhir footer

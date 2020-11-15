@@ -1,0 +1,78 @@
+//Awal Perjalanan
+
+.perjalanan {
+  height: 1150px;
+}
+.perjalanan_frame {
+  height: 1150px;
+  padding: 50px;
+}
+.perjalanan_content {
+  text-align: center;
+}
+
+.perjalanan_img {
+  text-align: center;
+  height: 65%;
+  width: 65%;
+}
+
+@include media-breakpoint-only(xs) {
+  .perjalanan {
+    height: 800px;
+  }
+  .perjalanan_frame {
+    height: 800px;
+    padding: 10px;
+  }
+  .perjalanan_img {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+@include media-breakpoint-only(sm) {
+  .perjalanan {
+    height: 930px;
+  }
+  .perjalanan_frame {
+    height: 930px;
+    padding: 0px;
+  }
+  .perjalanan_img {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  .perjalanan {
+    height: 930px;
+  }
+  .perjalanan_frame {
+    height: 930px;
+    padding: 0px;
+  }
+  .perjalanan_img {
+    text-align: center;
+    height: 80%;
+    width: 80%;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+  .perjalanan {
+    height: 1150px;
+  }
+  .perjalanan_frame {
+    height: 1150px;
+    padding: 0px;
+  }
+  .perjalanan_img {
+    text-align: center;
+    height: 75%;
+    width: 75%;
+  }
+}
+//akhir Perjalanan

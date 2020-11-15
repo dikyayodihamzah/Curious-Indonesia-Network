@@ -1,0 +1,64 @@
+//home
+.jumbotron {
+  background-image: url("../images/bg.png");
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_frame {
+  height: 100vh;
+}
+.home_content {
+  text-align: center;
+}
+
+#logo_home {
+  text-align: center;
+}
+
+.button {
+  margin-top: 30px;
+}
+
+.home_button {
+  width: 130px;
+  margin: 10px 35px 10px 35px;
+  border-radius: 4rem;
+  border-width: 3px;
+}
+
+@include media-breakpoint-only(xs) {
+  #logo_home {
+    text-align: center;
+    width: 70%;
+  }
+
+  .home_button {
+    width: 130px;
+    margin: 10px 35px 10px 35px;
+    border-radius: 4rem;
+    border-width: 3px;
+    font-size: smaller;
+  }
+}
+@include media-breakpoint-only(sm) {
+  #logo_home {
+    text-align: center;
+    width: 60%;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  #logo_home {
+    text-align: center;
+    width: 60%;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+}
+//akhir home

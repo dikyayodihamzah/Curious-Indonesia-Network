@@ -1,0 +1,19 @@
+{
+  "join": [
+    {
+      "ImageUrl": "images/idea.png",
+      "title": "Edu-Entertaiment",
+      "link": "/EduEntertaiment"
+    },
+    {
+      "ImageUrl": "images/competition.png",
+      "title": "Kompetisi",
+      "link": "/Kompetisi"
+    },
+    {
+      "ImageUrl": "images/trophy.png",
+      "title": "Prestasi",
+      "link": "/Prestasi"
+    }
+  ]
+}

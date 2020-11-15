@@ -1,0 +1,83 @@
+//awal Testimonials
+
+#carouselExampleIndicators-testi {
+  background-color: #ffc107;
+  height: 600px;
+}
+
+.content-media-testi {
+  padding: 20px;
+  height: 600px;
+  display: flex;
+  margin: auto;
+  vertical-align: middle;
+}
+
+#participant-img {
+  width: 80%;
+}
+
+@include media-breakpoint-only(xs) {
+  #participant-img {
+    width: 70%;
+  }
+  .participant-text > p {
+    font-size: 15px;
+  }
+  .participant-text > h2 {
+    font-size: 30px;
+  }
+
+  .participant-text > h4 {
+    font-size: 20px;
+  }
+
+  .participant-text > h5 {
+    font-size: 15px;
+  }
+}
+@include media-breakpoint-only(sm) {
+  #participant-img {
+    width: 45%;
+  }
+
+  .participant-text > p {
+    font-size: 16px;
+  }
+  .participant-text > h2 {
+    font-size: 35px;
+  }
+
+  .participant-text > h4 {
+    font-size: 25px;
+  }
+
+  .participant-text > h5 {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-only(md) {
+  #participant-img {
+    width: 90%;
+  }
+
+  .participant-text > p {
+    font-size: 18px;
+  }
+  .participant-text > h2 {
+    font-size: 35px;
+  }
+
+  .participant-text > h4 {
+    font-size: 25px;
+  }
+
+  .participant-text > h5 {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-only(lg) {
+}
+//akhir testimonials
