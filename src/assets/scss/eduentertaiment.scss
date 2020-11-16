@@ -1,5 +1,20 @@
-.carousel-control-prev-icon,
 .carousel-control-next-icon {
+  margin-left: 16px;
+  margin-right: 0;
+  color: black;
+  padding: 8px;
+  height: 16px;
+  width: 16px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 5px solid black;
+  background-color: black;
+}
+
+.carousel-control-prev-icon {
+  margin-left: 0;
+  margin-right: 16px;
   color: black;
   padding: 8px;
   height: 16px;
