@@ -24,7 +24,7 @@ export default function TentangKami(props) {
             className="TentangKami_text align-self-center text-white "
           >
             <Fade right>
-              <h1 className="text-warning">Tentang Kami</h1>
+              <h3 className="text-warning">Tentang Kami</h3>
             </Fade>
             <Fade right>
               <p>

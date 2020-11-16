@@ -12,11 +12,11 @@ export default function Footer() {
             <Row className=" py-4 px-3 ">
               <Col md="auto" className=" mx-auto ">
                 <h6 className="footer_title text-uppercase font-weight-bold">
-                  CIN{" "}
+                  COINETWORK{" "}
                 </h6>
                 <hr
                   className="bg-warning mb-2 mt-0 d-inline-block mx-auto"
-                  style={{ width: "50px", height: "2px" }}
+                  style={{ width: "160px", height: "2px" }}
                 ></hr>
                 <p className="mt-2 " id="footer_list">
                   Curious Indonesian Network

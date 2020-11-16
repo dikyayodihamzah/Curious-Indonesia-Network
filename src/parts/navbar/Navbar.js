@@ -24,7 +24,7 @@ function Navbar(props) {
             <div className="cin_navbar align-items-center justify-content-center">
               <Link to="/">
                 <div className="cin_text ">
-                  <h4>CIN</h4>
+                  <h6>COINETWORK</h6>
                 </div>
               </Link>
             </div>

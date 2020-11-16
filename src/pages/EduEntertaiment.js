@@ -19,7 +19,7 @@ export default function EduEntertaiment() {
           <Col md={12} className="margin_top"></Col>
           <Col md={12} className="edu-text ">
             {" "}
-            <h4>Edu-Entertainment</h4>
+            <h4 className="font-weight-bold">Edu-Entertainment</h4>
           </Col>
         </Row>
       </Container>
@@ -55,7 +55,7 @@ export default function EduEntertaiment() {
                 {" "}
                 <Fade right>
                   <div className="webinar-text media-body align-midd">
-                    <h2>
+                    <h2 className="font-weight-bold">
                       <strong>WEBINAR COIN ACTION</strong>
                     </h2>
                     <p>
