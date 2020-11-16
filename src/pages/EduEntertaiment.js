@@ -14,7 +14,7 @@ export default function EduEntertaiment() {
 
   return (
     <div>
-      <Container fluid>
+      <Container fluid className=" carousel-control-next-icon-black">
         <Row>
           <Col md={12} className="margin_top"></Col>
           <Col md={12} className="edu-text ">
